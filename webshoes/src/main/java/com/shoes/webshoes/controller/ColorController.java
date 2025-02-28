@@ -29,7 +29,7 @@ import com.shoes.webshoes.service.ColorService;
 @RequestMapping("/api/v1/color")
 public class ColorController  {
     @Autowired
-    public ColorService colorService;
+    public ColorService  colorService;
 
     @GetMapping("")
 //	@PreAuthorize("hasAnyAuthority('ADMIN')")
