@@ -1,11 +1,11 @@
-package com.shoes.webshoes.dao;
+package com.shoes.webshoes.service;
 
 import java.util.List;
 import com.shoes.webshoes.common.utils.Pagination;
 import com.shoes.webshoes.model.StoreProcedureListResult;
 import com.shoes.webshoes.entity.Product;
 
-public interface ProductDao {
+public interface ProductService {
     void create(Product product);
 
     Product findOne(int id);
