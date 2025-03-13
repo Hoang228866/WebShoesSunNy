@@ -97,7 +97,7 @@ public class CategoryController  {
 
 		if (CategoryCheck != null) {
 			response.setStatus(HttpStatus.BAD_REQUEST);
-			response.setMessageError(StringErrorValue.CATEGORY_NOT_FOUND);
+			response.setMessageError(StringErrorValue.CATEGORY_IS_EXIST);
 			return new ResponseEntity<>(response, HttpStatus.OK);
 		}
 
