@@ -1,4 +1,4 @@
-package com.shoes.webshoes.dao.Impl;
+package com.shoes.webshoes.dao;
 
 import java.util.List;
 import com.shoes.webshoes.common.utils.Pagination;
