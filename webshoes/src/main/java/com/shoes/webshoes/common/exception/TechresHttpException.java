@@ -3,7 +3,7 @@ package com.shoes.webshoes.common.exception;
 
 import org.springframework.http.HttpStatus;
 
-public class TechresHttpException extends TechresBaseException {
+public class 	TechresHttpException extends TechresBaseException {
 
 	static final long serialVersionUID = -3387516993124229948L;
 	private HttpStatus httpStatus = HttpStatus.INTERNAL_SERVER_ERROR;
